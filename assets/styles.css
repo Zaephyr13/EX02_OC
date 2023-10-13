@@ -1,0 +1,33 @@
+/* Init documents */
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Colors */
+/* Displayer */
+/* numpad */
+/* Buttons */
+/* header */
+header {
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+/* main */
+
+/*# sourceMappingURL=styles.css.map */
