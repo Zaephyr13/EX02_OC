@@ -17,6 +17,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
 /* Fontstyle */
 /* Icons */
 /* Buttons */
@@ -34,6 +39,7 @@ body {
   text-align: center;
   border: 1px solid transparent;
   border-radius: 5px;
+  cursor: pointer;
 }
 .main__add:hover {
   opacity: 0.9;
@@ -57,6 +63,7 @@ body {
   color: white;
   font-size: 24px;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 .list-element__delete:hover {
   opacity: 0.9;
@@ -65,6 +72,30 @@ body {
 .list-element__delete:active {
   opacity: 1;
   background-color: #fa0000;
+}
+
+.list-element__validate {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.list-element__validate:hover {
+  opacity: 0.9;
+  border-color: gray;
+}
+.list-element__validate:active {
+  opacity: 1;
+  background-color: #007b00;
 }
 
 /* main */
@@ -133,7 +164,13 @@ h1 {
   font-size: 36px;
   padding: 10px;
   color: black;
+  height: 63px;
   flex: 1;
+}
+
+.validate {
+  text-decoration: line-through;
+  opacity: 0.6;
 }
 
 /*# sourceMappingURL=styles.css.map */

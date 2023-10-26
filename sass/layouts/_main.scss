@@ -70,7 +70,13 @@ h1 {
             font-size: 36px;
             padding: 10px;
             color: black;
+            height: 63px;
             flex: 1;
         }
     }
+}
+
+.validate {
+    text-decoration: line-through;
+    opacity: 0.6;
 }

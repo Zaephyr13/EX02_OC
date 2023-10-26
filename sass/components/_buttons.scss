@@ -13,6 +13,7 @@
     text-align: center;
     border: 1px solid transparent;
     border-radius: 5px;
+    cursor: pointer;
 
     &:hover {
         opacity: 0.9;
@@ -41,6 +42,7 @@
     color: white;
     font-size: 24px;
     border: 1px solid transparent;
+    cursor: pointer;
 
     &:hover {
         opacity: 0.9;
@@ -50,5 +52,34 @@
     &:active {
         opacity: 1;
         background-color: darken(red, 0.9);
+    }
+}
+
+.list-element__validate {
+    display: grid;
+    place-items: center;
+
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 50px;
+    height: 50px;
+
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.9;
+        border-color: gray;
+    }
+
+    &:active {
+        opacity: 1;
+        background-color: darken(green, 0.9);
     }
 }
