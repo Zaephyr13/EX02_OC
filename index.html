@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>To do list</title>
         <link rel="stylesheet" href="./assets/styles.css" />
+        <script type="module" src="./assets/scripts.js"></script>
     </head>
 
     <body>
@@ -12,20 +13,13 @@
             <h1>WORKS TO BE DONE</h1>
             <div class="main__control-panel">
                 <div class="main__form">
-                    <input class="main__field" placeholder="Enter The Work" type="text" />
-                    <button class="main__button">+</button>
+                    <input id="task" class="main__field" placeholder="Enter The Work" type="text" />
+                    <button title="add" class="main__add">+</button>
                 </div>
                 <button class="main__dropdown">ALL</button>
             </div>
             <section class="list">
-                <div class="list-element">
-                    <p class="list-element__content">JavaScript</p>
-                    <div class="list-element__delete">
-                        <i class="fa-solid fa-trash"></i>
-                    </div>
-                </div>
             </section>
         </main>
-        <script src="./assets/scripts.js"></script>
     </body>
 </html>

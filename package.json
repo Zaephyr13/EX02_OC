@@ -20,10 +20,12 @@
     "homepage": "https://github.com/Zaephyr13/Calc_js#readme",
     "devDependencies": {
         "autoprefixer": "^10.4.14",
-        "sass": "^1.66.1"
+        "sass": "^1.66.1",
+        "http-server": "^14.1.1"
     },
     "dependencies": {
         "postcss": "^8.4.21",
-        "postcss-cli": "^10.1.0"
+        "postcss-cli": "^10.1.0",
+        "http-server": "^14.1.1"
     }
 }
