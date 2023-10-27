@@ -5,17 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>To do list</title>
         <link rel="stylesheet" href="./assets/styles.css" />
-        <script type="module" src="./assets/scripts.js"></script>
+        <script src="./assets/scripts_V2.js" defer></script>
     </head>
 
     <body>
         <main>
             <h1>WORKS TO BE DONE</h1>
             <div class="main__control-panel">
-                <div class="main__form">
+                <form method="post" class="main__form">
                     <input name="user-input" class="main__field" placeholder="Enter The Work" type="text" />
-                    <button title="add" class="main__add">+</button>
-                </div>
+                    <button title="add" class="main__add" type="submit">+</button>
+                </form>
                 <button class="main__dropdown">ALL</button>
             </div>
             <section class="list">

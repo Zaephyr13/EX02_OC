@@ -1,7 +1,6 @@
 // Récupération des éléments du DOM
 const inputfield = document.querySelector('.main__field')
 const addElement = document.querySelector('.main__add')
-const deleteElement = document.querySelectorAll('.list-element__delete')
 const listElement = document.querySelector('.list')
 
 // Affichage des éléments du Local Storage au chargement de la page
@@ -86,6 +85,7 @@ function getTasks() {
         tasks = []
     } else {
         tasks = JSON.parse(localStorage.getItem('tasks'))
+        
     }
     tasks.forEach(function (element) {
         const elementTask = document.createElement('Article')
